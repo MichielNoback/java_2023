@@ -1,6 +1,6 @@
 package nl.bioinf.nomi.inheritance;
 
-public class Bird extends Animal{
+public class Bird extends WalkingAnimal{
     public Bird(String speciesName) {
         super(2, speciesName);
     }
