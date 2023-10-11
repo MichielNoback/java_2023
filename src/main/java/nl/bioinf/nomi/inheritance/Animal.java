@@ -7,6 +7,10 @@ public class Animal {
         this.speciesName = speciesName;
     }
 
+    public String getSpeciesName() {
+        return speciesName;
+    }
+
     public void breathe() {
         System.out.println("breathe in, and out. Don't forget.");
     }
